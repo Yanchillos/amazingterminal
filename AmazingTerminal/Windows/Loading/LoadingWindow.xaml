@@ -1,0 +1,47 @@
+﻿<Window x:Class="AmazingTerminal.Windows.Loading.LoadingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dataloading="clr-namespace:AmazingTerminal.Windows.Terminal.Controls.DataLoading"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True">
+    <Window.Background>
+        <SolidColorBrush Color="White" Opacity="0"/>
+    </Window.Background>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="250"/>
+        </Grid.ColumnDefinitions>
+        <dataloading:DataLoadingControl Grid.Column="0"/>
+        <Grid Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Foreground="Red" FontSize="16" Text="{Binding SportsCount, StringFormat={}Sports Count: {0}}"/>
+            <TextBlock Grid.Row="1" Foreground="Red" FontSize="16" Text="{Binding LeaguesCount, StringFormat={}Leagues Count: {0}}"/>
+            <TextBlock Grid.Row="2" Foreground="Red" FontSize="16" Text="{Binding EventsCount, StringFormat={}Events Count: {0}}"/>
+            <TextBlock Grid.Row="3" Foreground="Red" FontSize="16" Text="{Binding BetTypesCount, StringFormat={}BetTypes Count: {0}}"/>
+            <TextBlock Grid.Row="4" Foreground="Red" FontSize="16" Text="{Binding OddTypesCount, StringFormat={}OddTypes Count: {0}}"/>
+            <TextBlock Grid.Row="5" Foreground="Red" FontSize="16" Text="{Binding ViewTypesCount, StringFormat={}ViewTypes Count: {0}}"/>
+            <TextBlock Grid.Row="6" Foreground="Red" FontSize="16" Text="{Binding BetGroupsCount, StringFormat={}BetGroups Count: {0}}"/>
+            <TextBlock Grid.Row="7" Foreground="Red" FontSize="16" Text="{Binding SportsTranslationsCount, StringFormat={}Sports Translations Count: {0}}"/>
+            <TextBlock Grid.Row="8" Foreground="Red" FontSize="16" Text="{Binding CountriesTranslationsCount, StringFormat={}Countries Translations Count: {0}}"/>
+            <TextBlock Grid.Row="9" Foreground="Red" FontSize="16" Text="{Binding LeaguesTranslationsCount, StringFormat={}Leagues Translations Count: {0}}"/>
+            <TextBlock Grid.Row="11" Foreground="Red" FontSize="16" Text="{Binding TeamsTranslationsCount, StringFormat={}Teams Translations Count: {0}}"/>
+            <TextBlock Grid.Row="12" Foreground="Red" FontSize="16" Text="{Binding BetGroupsTranslationsCount, StringFormat={}BetGroups Translations Count: {0}}"/>
+            <TextBlock Grid.Row="13" Foreground="Red" FontSize="16" Text="{Binding BetTypesTranslationsCount, StringFormat={}BetTypes Translations Count: {0}}"/>
+        </Grid>
+    </Grid>
+</Window>

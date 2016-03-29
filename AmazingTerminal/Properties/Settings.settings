@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AmazingTerminal.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="APIHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://188.166.69.234/</Value>
+    </Setting>
+    <Setting Name="SportsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/line/sports</Value>
+    </Setting>
+    <Setting Name="SportsTranslationsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/translate/sports/{0}</Value>
+    </Setting>
+    <Setting Name="AppLanguage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ru</Value>
+    </Setting>
+    <Setting Name="LoginWindowRequires" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CountriesTranslationsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/translate/countries/{0}</Value>
+    </Setting>
+    <Setting Name="LeaguesTranslationsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/translate/leagues/{0}</Value>
+    </Setting>
+    <Setting Name="TeamsTranslationsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/translate/teams/{0}</Value>
+    </Setting>
+    <Setting Name="BetTypesTranslationsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/translate/bettypenames/{0}</Value>
+    </Setting>
+    <Setting Name="LeaguesBySportIdEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/offline/leagues/{0}</Value>
+    </Setting>
+    <Setting Name="EventsByLeagueIdEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/offline/events/{0}</Value>
+    </Setting>
+    <Setting Name="EventsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/offline/events</Value>
+    </Setting>
+    <Setting Name="LeaguesEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/line/leagues</Value>
+    </Setting>
+    <Setting Name="BetTypesEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/static/bettypes</Value>
+    </Setting>
+    <Setting Name="OddTypesEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/static/oddtypes</Value>
+    </Setting>
+    <Setting Name="ErrorLogsPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\1\Desktop\ATLogs\Errors\error.txt</Value>
+    </Setting>
+    <Setting Name="OddsByLeagueId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/offline/oddsByLeague/{0}</Value>
+    </Setting>
+    <Setting Name="OddsByEventId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/offline/odds/{0}</Value>
+    </Setting>
+    <Setting Name="ViewTypesEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/static/bettypeviews</Value>
+    </Setting>
+    <Setting Name="BetGroupsTranslationsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/translate/betgrouptitles/{0}</Value>
+    </Setting>
+    <Setting Name="BetGroupsEndpoind" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/static/betgroups</Value>
+    </Setting>
+    <Setting Name="OddTypesTranslationsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api/v1/translate/betgrouptypetitles/{0}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

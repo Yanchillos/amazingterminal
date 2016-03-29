@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="AmazingTerminal.Windows.Terminal.Controls.Offline.OfflineControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sportbook="clr-namespace:AmazingTerminal.Windows.Terminal.Controls.Offline.Sportbook">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/AmazingTerminal;component/Windows/Terminal/OfflineResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <sportbook:SportbookControl Grid.Column="0"/>
+        <ContentPresenter Grid.Column="1" Content="{Binding ActiveControl}"/>
+        <!--BetSlip-->
+    </Grid>
+</UserControl>
